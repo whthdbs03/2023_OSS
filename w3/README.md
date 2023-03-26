@@ -22,8 +22,8 @@
     * 예) git log --oneline --decorate --graph --all
 
 ------
-### 2주차 숙제
-
+### 2주차제숙제
+   
 ```bash
 #!/usr/bin/env bash
 echo "----------"
