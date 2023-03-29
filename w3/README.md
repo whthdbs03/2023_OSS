@@ -48,14 +48,14 @@ echo "file path :"
 echo $file_path
 echo
 
-line_num=`wc -l $file_path | cut -c 1 -`
+line_num=`wc -l $file_path | cut -d" " -f -1`
 echo "----------"
 echo "line number :"
 echo $line_num
 echo
 
 echo "----------"
-echo "lask line :"
+echo "last line :"
 tail -n 1 $file_path
 ```
 
